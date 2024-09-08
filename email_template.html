@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <style type="text/css">
+    /* General styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    table {
+      border-spacing: 0;
+      width: 100%;
+    }
+    td {
+      padding: 0;
+    }
+    img {
+      display: block;
+      max-width: 100%;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .content {
+      text-align: left;
+      padding: 20px;
+    }
+    .content p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333333;
+    }
+    .btn {
+      background-color: #009688;
+      color: white;
+      padding: 12px 24px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background-color: #00796b;
+    }
+    .footer {
+      font-size: 14px;
+      color: #777777;
+      text-align: center;
+      padding: 20px 0;
+    }
+    /* Responsive styling */
+    @media only screen and (max-width: 600px) {
+      .container {
+        width: 100%;
+        padding: 10px;
+      }
+      .btn {
+        width: 100%;
+        padding: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <table role="presentation">
+    <tr>
+      <td>
+
+        <!-- Container -->
+        <table role="presentation" class="container">
+          <tr>
+            <td>
+
+              <!-- Header -->
+              <div class="header">
+                <img src="/PAMAI_logo.jpeg" alt="PAM AI Logo" width="150px" />
+              </div>
+
+              <!-- Content -->
+              <div class="content">
+                <p>Hi [First Name],</p>
+                <p>Thank you for signing up for PAM AI. To complete your registration, please use the following OTP code:</p>
+                <p><strong>Your OTP Code:</strong> <span style="font-size: 24px; color: #009688;">[XXXXXX]</span></p>
+                <p>This code is valid for [X minutes]. If you didn’t request this, please ignore this email.</p>
+
+                <a href="#" class="btn">Need Help?</a>
+
+                <p>Best regards,<br>The PAM AI Team</p>
+              </div>
+
+              <!-- Footer -->
+              <div class="footer">
+                <p>PAM AI, Africa | <a href="#" style="color: #009688;">Privacy Policy</a></p>
+              </div>
+
+            </td>
+          </tr>
+        </table>
+        <!-- End Container -->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
